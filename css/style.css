@@ -4,8 +4,8 @@ body {
 	background: #000;
 }
 
-ul,
-li {
+.menu,
+.menu__item {
 	display: block;
 	padding: 0;
 	margin: 0;
@@ -17,17 +17,17 @@ li {
 	padding: 20px 0;
 }
 
-.menu-item {
+.menu__item {
 	margin-left: 37px;
 }
 
-.menu-item a {
+.menu__item a {
 	font-family: "Open Sans Semibold", serif;
 	font-size: 20px;
 	color: #212121;
 }
 
-.menu-item a:hover {
+.menu__item a:hover {
 	text-decoration: none;
 	color: #868686;
 }
