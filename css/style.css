@@ -55,7 +55,7 @@ body {
 	margin-bottom: 100px;
 }
 
-button {
+.button {
 	padding: 10px 25px;
 	margin: 0 10px;
 	color: white;
@@ -87,7 +87,7 @@ button {
 	color: #000;
 	background: #fff;
 	text-align: center;
-	padding: 120px 0 125px 0;
+	padding: 120px 0 0;
 }
 
 .about__title {
@@ -98,8 +98,12 @@ button {
 
 .about__text {
 	font-size: 15px;
-	margin-bottom: 110px;
 	color: #212121;
+	margin-bottom: 110px;
+}
+
+.about__text_unmargined {
+	margin-bottom: 0;
 }
 
 .about__h3 {
@@ -110,3 +114,52 @@ button {
 }
 
 /* !Конец стилизации секции "О нас" */
+
+/* !Начало стилизации секции "Наши услуги" */
+.services {
+	color: #000;
+	background: #e4fdf9;
+	text-align: center;
+	padding: 165px 0 125px 0;
+}
+
+.our-card {
+	background: #fff;
+	padding: 50px;
+	color: #000;
+	transition: 0.3s;
+	margin-bottom: 30px;
+}
+
+.our-card:hover {
+	background: #00897b;
+	color: #fff;
+	box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.our-card:hover .our-card__icon {
+	color: #fff;
+}
+
+.our-card:hover .button-services {
+	color: #fff;
+	border: 1px solid white;
+}
+
+
+.our-card__icon {
+	font-size: 60px;
+	color: #000;
+	transition: 0.3s;
+}
+
+.button-services {
+	font-size: 20px;
+	padding: 15px 15px;
+	background: transparent;
+	color: #000;
+	border: 1px solid black;
+	margin-top: 40px;
+	font-family: "Open Sans Semibold", sans-serif;
+	transition: 0.3s;
+}
